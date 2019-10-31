@@ -1,0 +1,32 @@
+{
+  "name": "jarvis-cli",
+  "version": "1.0.0",
+  "description": "own cli for works",
+  "main": "src/index.js",
+  "bin": {
+    "jarvis": "bin/jarvis"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zadewu/jarvis-cli.git"
+  },
+  "keywords": [
+    "jarvis",
+    "cli"
+  ],
+  "author": "harrik, alex, tien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zadewu/jarvis-cli/issues"
+  },
+  "homepage": "https://github.com/zadewu/jarvis-cli#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
